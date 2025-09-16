@@ -7,12 +7,12 @@ import { Autoplay, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import Hero1 from "@/assets/images/Hero1.png";
-import Hero2 from "@/assets/images/Hero2.png";
-import ArrowRight from "@/assets/images/arrow-right.png";
-import ArrowLeft from "@/assets/images/arrow-left.png";
-import CarouselDetail from "@/assets/images/carousel-detail.png";
-import ButtonBg from "@/assets/images/button-bg.png";
+import Hero1 from "../../assets/images/Hero1.png";
+import Hero2 from "../../assets/images/Hero2.png";
+import ArrowRight from "../../assets/images/arrow-right.png";
+import ArrowLeft from "../../assets/images/arrow-left.png";
+import CarouselDetail from "../../assets/images/carousel-detail.png";
+import ButtonBg from "../../assets/images/button-bg.png";
 import Image from "next/image";
 
 function HeroSection() {

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Search from "@/assets/images/Search.png";
-import Logo from "@/assets/images/logo.png";
-import MobileMenu from "@/assets/images/mobile-menu.png";
+import Search from "../assets/images/search.png";
+import Logo from "../assets/images/logo.png";
+import MobileMenu from "../assets/images/mobile-menu.png";
 
 function Header() {
   return (
