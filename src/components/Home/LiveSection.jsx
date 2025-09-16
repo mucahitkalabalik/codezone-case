@@ -1,7 +1,7 @@
 import React from "react";
 import LiveSectionBg from "../../../public/images/live-section-bg.png";
 import Man from "../../../public/images/man.png";
-import Woman from "../../../public/images/woman.png";
+// import Woman from "../../../public/images/woman.png";
 import Image from "next/image";
 import Twitch from "../../../public/images/twitch.png";
 import Like from "../../../public/images/like.png";
@@ -50,7 +50,7 @@ function LiveSection() {
           className="object-contain md:w-[500px] md:h-auto"
         />
         <Image
-          src={Woman}
+          src="/woman.png"
           alt="Woman"
           width={150}
           height={300}
