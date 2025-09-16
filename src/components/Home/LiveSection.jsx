@@ -16,7 +16,7 @@ function LiveSection() {
       {/* Content */}
       <div className="flex flex-col text-center text-white mb-8 md:mb-0 md:absolute md:left-3/12 md:top-1/6 rotate-[-3deg]">
         <div className="flex mb-10">
-          <Image src={Twitch} width={250} alt="Twitch" />
+          <img src="images/twitch.png" width={250} alt="Twitch" />
           <div className=" border-l border-[#3B3B3B] mr-10"></div>
           <div className="text-left">
             <div className="live-title font-light text-[68px] leading-[1]">
