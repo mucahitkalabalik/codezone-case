@@ -19,15 +19,13 @@ function HeroSection() {
   const nextRef = useRef(null);
   const [swiperReady, setSwiperReady] = useState(false);
 
-  const heroImages = ['/images/hero1.png', '/images/hero2.png'];
+  const heroImages = ["/images/hero1.png", "/images/hero2.png"];
 
   console.log(heroImages);
 
   return (
     <section className="relative w-full h-screen">
-      <Image
-        width={600}
-        height={400}
+      <img
         src="/images/carousel-detail.png"
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
