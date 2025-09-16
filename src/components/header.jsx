@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Search from "../../public/images/search.png";
-import Logo from "../../public/images/logo.png";
 import MobileMenu from "../../public/images/mobile-menu.png";
 
 function Header() {
   return (
     <header className="absolute top-0 left-0 w-full h-20 bg-[#1212120c] z-50 backdrop-blur">
       <div className="container mx-auto flex items-center justify-between h-full px-6">
-        <Image src={Logo} alt="Logo" width={240} height={60} priority />
+        <Image src="../../public/images/logo.png" alt="Logo" width={240} height={60} priority />
 
         <nav className="hidden md:flex space-x-24 font-saira text-white">
           <a href="#" className="hover:text-gray-300">
