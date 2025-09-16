@@ -1,11 +1,11 @@
 import React from "react";
-import LiveSectionBg from "../../assets/images/live-section-bg.png";
-import Man from "../../assets/images/man.png";
-import Woman from "../../assets/images/woman.png";
+import LiveSectionBg from "../../../public/images/live-section-bg.png";
+import Man from "../../../public/images/man.png";
+import Woman from "../../../public/images/woman.png";
 import Image from "next/image";
-import Twitch from "../../assets/images/Twitch.png";
-import Like from "../../assets/images/like.png";
-import Star from "../../assets/images/star.png";
+import Twitch from "../../../public/images/Twitch.png";
+import Like from "../../../public/images/like.png";
+import Star from "../../../public/images/star.png";
 
 function LiveSection() {
   return (

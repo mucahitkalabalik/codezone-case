@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Search from "../assets/images/search.png";
-import Logo from "../assets/images/logo.png";
-import MobileMenu from "../assets/images/mobile-menu.png";
+import Search from "../../public/images/search.png";
+import Logo from "../../public/images/logo.png";
+import MobileMenu from "../../public/images/mobile-menu.png";
 
 function Header() {
   return (
@@ -11,10 +11,18 @@ function Header() {
         <Image src={Logo} alt="Logo" width={240} height={60} priority />
 
         <nav className="hidden md:flex space-x-24 font-saira text-white">
-          <a href="#" className="hover:text-gray-300">Haberler</a>
-          <a href="#" className="hover:text-gray-300">Etkinlikler</a>
-          <a href="#" className="hover:text-gray-300">Videolar</a>
-          <a href="#" className="hover:text-gray-300">İletişim</a>
+          <a href="#" className="hover:text-gray-300">
+            Haberler
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            Etkinlikler
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            Videolar
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            İletişim
+          </a>
         </nav>
 
         <div className="hidden md:flex items-center space-x-8">
@@ -25,7 +33,13 @@ function Header() {
         </div>
 
         <div className="md:hidden">
-          <Image src={MobileMenu} alt="Mobile Menu" width={24} height={24} priority />
+          <Image
+            src={MobileMenu}
+            alt="Mobile Menu"
+            width={24}
+            height={24}
+            priority
+          />
         </div>
       </div>
     </header>
