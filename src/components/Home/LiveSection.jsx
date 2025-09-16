@@ -33,7 +33,7 @@ function LiveSection() {
 
         <div className="flex items-center justify-center space-x-3 md:space-x-5 border border-[#3B3B3B] p-1 rounded-xl">
           <button className="bg-[#864CF6] text-white px-6 py-3 rounded-xl flex items-center space-x-2">
-            <Image src={Like} alt="Like" />
+            <img src="/images/like.png" alt="Like" />
             <span>Takip Et</span>
           </button>
           <button className="bg-[#222123] text-white px-6 py-3 rounded-xl flex items-center">
@@ -42,15 +42,15 @@ function LiveSection() {
         </div>
       </div>
       <div className="w-full flex justify-between items-center md:pt-50">
-        <Image
-          src={Man.src}
+        <img
+          src="/images/man.png"
           alt="Man"
           width={150}
           height={300}
           className="object-contain md:w-[500px] md:h-auto"
         />
-        <Image
-          src="/woman.png"
+        <img
+          src="/images/woman.png"
           alt="Woman"
           width={150}
           height={300}

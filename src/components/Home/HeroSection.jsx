@@ -19,15 +19,15 @@ function HeroSection() {
   const nextRef = useRef(null);
   const [swiperReady, setSwiperReady] = useState(false);
 
-  const heroImages = [Hero1, Hero2];
+  const heroImages = ['/images/hero1.png', '/images/hero2.png'];
 
   console.log(heroImages);
 
   return (
     <section className="relative w-full h-screen">
       <Image
-        width={600}  
-  height={400} 
+        width={600}
+        height={400}
         src="/images/carousel-detail.png"
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
@@ -48,11 +48,10 @@ function HeroSection() {
       >
         {heroImages.map((image, idx) => (
           <SwiperSlide key={idx} className="relative w-full h-full">
-            <Image
+            <img
               src={image}
               alt={`Slide ${idx + 1}`}
               className="w-full h-full object-cover"
-              fill
               style={{ objectFit: "cover" }}
             />
             <div
@@ -87,14 +86,14 @@ function HeroSection() {
         className="hidden md:block absolute top-1/2 transform -translate-y-1/2 cursor-pointer z-30"
         style={{ left: "68px" }}
       >
-        <Image src="/images/arrow-left.png" alt="Prev" width={20} height={40} />
+        <img src="/images/arrow-left.png" alt="Prev" width={20} height={40} />
       </div>
       <div
         ref={nextRef}
         className="hidden md:block absolute top-1/2 transform -translate-y-1/2 cursor-pointer z-30"
         style={{ right: "100px" }}
       >
-        <Image src="/images/arrow-right.png" alt="Next" width={20} height={40} />
+        <img src="/images/arrow-right.png" alt="Next" width={20} height={40} />
       </div>
     </section>
   );

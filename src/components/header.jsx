@@ -6,12 +6,12 @@ function Header() {
     <header className="absolute top-0 left-0 w-full h-20 bg-[#1212120c] z-50 backdrop-blur">
       <div className="container mx-auto flex items-center justify-between h-full px-6">
         {/* Logo */}
-        <Image
+        <img
           src="/images/logo.png"
           alt="Logo"
           width={240}
           height={60}
-          priority
+    
         />
 
         {/* Desktop Navigation */}
@@ -32,12 +32,12 @@ function Header() {
 
         {/* Desktop Search & Login */}
         <div className="hidden md:flex items-center space-x-8">
-          <Image
+          <img
             src="/images/search.png"
             alt="Search"
             width={22}
             height={20}
-            priority
+        
           />
           <button className="px-4 py-2 bg-white text-black rounded-md font-saira font-medium">
             Giriş
@@ -46,12 +46,12 @@ function Header() {
 
         {/* Mobile Menu */}
         <div className="md:hidden">
-          <Image
+          <img
             src="/images/mobile-menu.png"
             alt="Mobile Menu"
             width={24}
             height={24}
-            priority
+      
           />
         </div>
       </div>
