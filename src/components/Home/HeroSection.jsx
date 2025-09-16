@@ -11,7 +11,6 @@ import Hero1 from "../../../public/images/hero1.png";
 import Hero2 from "../../../public/images/hero2.png";
 import ArrowRight from "../../../public/images/arrow-right.png";
 import ArrowLeft from "../../../public/images/arrow-left.png";
-import CarouselDetail from "../../../public/images/carousel-detail.png";
 import ButtonBg from "../../../public/images/button-bg.png";
 import Image from "next/image";
 
@@ -88,14 +87,14 @@ function HeroSection() {
         className="hidden md:block absolute top-1/2 transform -translate-y-1/2 cursor-pointer z-30"
         style={{ left: "68px" }}
       >
-        <Image src={ArrowLeft} alt="Prev" width={20} height={40} />
+        <Image src="/images/arrow-left.png" alt="Prev" width={20} height={40} />
       </div>
       <div
         ref={nextRef}
         className="hidden md:block absolute top-1/2 transform -translate-y-1/2 cursor-pointer z-30"
         style={{ right: "100px" }}
       >
-        <Image src={ArrowRight} alt="Next" width={20} height={40} />
+        <Image src="/images/arrow-right.png" alt="Next" width={20} height={40} />
       </div>
     </section>
   );
