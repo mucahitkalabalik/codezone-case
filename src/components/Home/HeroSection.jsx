@@ -46,7 +46,7 @@ function HeroSection() {
         {heroImages.map((image, idx) => (
           <SwiperSlide key={idx} className="relative w-full h-full">
             <Image
-              src={image.src}
+              src={image}
               alt={`Slide ${idx + 1}`}
               className="w-full h-full object-cover"
               fill
