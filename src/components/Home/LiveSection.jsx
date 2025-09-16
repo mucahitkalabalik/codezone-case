@@ -3,7 +3,7 @@ import LiveSectionBg from "../../../public/images/live-section-bg.png";
 import Man from "../../../public/images/man.png";
 import Woman from "../../../public/images/woman.png";
 import Image from "next/image";
-import Twitch from "../../../public/images/Twitch.png";
+import Twitch from "../../../public/images/twitch.png";
 import Like from "../../../public/images/like.png";
 import Star from "../../../public/images/star.png";
 
