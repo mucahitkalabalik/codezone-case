@@ -25,7 +25,7 @@ function Header() {
         </nav>
 
         <div className="hidden md:flex items-center space-x-8">
-          <Image src={Search.src} alt="Search" width={22} height={20} priority />
+          <Image src={'../../public/images/search.png'} alt="Search" width={22} height={20} priority />
           <button className="px-4 py-2 bg-white text-black rounded-md font-saira font-medium">
             Giriş
           </button>
