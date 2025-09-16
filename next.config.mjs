@@ -4,4 +4,4 @@ const nextConfig = {
   trailingSlash: true, // Tüm sayfalar için index.html oluşturur
 };
 
-module.exports = nextConfig;
+export default nextConfig;
