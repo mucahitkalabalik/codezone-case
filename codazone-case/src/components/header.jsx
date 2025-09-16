@@ -1,0 +1,35 @@
+import React from "react";
+import Image from "next/image";
+import Search from "@/assets/images/Search.png";
+import Logo from "@/assets/images/logo.png";
+import MobileMenu from "@/assets/images/mobile-menu.png";
+
+function Header() {
+  return (
+    <header className="absolute top-0 left-0 w-full h-20 bg-[#1212120c] z-50 backdrop-blur">
+      <div className="container mx-auto flex items-center justify-between h-full px-6">
+        <Image src={Logo} alt="Logo" width={240} height={60} priority />
+
+        <nav className="hidden md:flex space-x-24 font-saira text-white">
+          <a href="#" className="hover:text-gray-300">Haberler</a>
+          <a href="#" className="hover:text-gray-300">Etkinlikler</a>
+          <a href="#" className="hover:text-gray-300">Videolar</a>
+          <a href="#" className="hover:text-gray-300">İletişim</a>
+        </nav>
+
+        <div className="hidden md:flex items-center space-x-8">
+          <Image src={Search} alt="Search" width={22} height={20} priority />
+          <button className="px-4 py-2 bg-white text-black rounded-md font-saira font-medium">
+            Giriş
+          </button>
+        </div>
+
+        <div className="md:hidden">
+          <Image src={MobileMenu} alt="Mobile Menu" width={24} height={24} priority />
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default Header;
