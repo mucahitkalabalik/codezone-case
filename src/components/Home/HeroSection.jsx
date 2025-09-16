@@ -22,10 +22,14 @@ function HeroSection() {
 
   const heroImages = [Hero1, Hero2];
 
+  console.log(heroImages);
+
   return (
     <section className="relative w-full h-screen">
       <Image
-        src={CarouselDetail}
+        width={600}  
+  height={400} 
+        src="/images/carousel-detail.png"
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
       />
@@ -46,7 +50,7 @@ function HeroSection() {
         {heroImages.map((image, idx) => (
           <SwiperSlide key={idx} className="relative w-full h-full">
             <Image
-              src={`url(${image.src})`}
+              src={image}
               alt={`Slide ${idx + 1}`}
               className="w-full h-full object-cover"
               fill
