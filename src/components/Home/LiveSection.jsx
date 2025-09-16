@@ -43,7 +43,7 @@ function LiveSection() {
       </div>
       <div className="w-full flex justify-between items-center md:pt-50">
         <Image
-          src={Man}
+          src={Man.src}
           alt="Man"
           width={150}
           height={300}
