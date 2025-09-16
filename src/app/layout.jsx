@@ -1,8 +1,7 @@
 import { Saira } from "next/font/google";
-import "./globals.css"; // Tailwind buradan import ediliyor
+import "./globals.css"; 
 import Header from "@/components/header";
 
-// Fontu import et
 const saira = Saira({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],

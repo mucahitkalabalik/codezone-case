@@ -1,11 +1,5 @@
 import React from "react";
 import LiveSectionBg from "../../../public/images/live-section-bg.png";
-import Man from "../../../public/images/man.png";
-// import Woman from "../../../public/images/woman.png";
-import Image from "next/image";
-import Twitch from "../../../public/images/twitch.png";
-import Like from "../../../public/images/like.png";
-import Star from "../../../public/images/star.png";
 
 function LiveSection() {
   return (
@@ -18,7 +12,6 @@ function LiveSection() {
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
       />
-      {/* Content */}
       <div className="flex flex-col text-center text-white mb-8 md:mb-0 md:absolute md:left-3/12 md:top-1/6 rotate-[-3deg]">
         <div className="flex mb-10">
           <img

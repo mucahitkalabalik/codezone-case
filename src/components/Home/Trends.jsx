@@ -61,7 +61,7 @@ function Trends() {
       </div>
       <div className="w-full flex justify-center mt-10">
         <button
-          className="relative w-[200px] h-[60px] font-saira  rounded-md text-black overflow-hidden font-bold text-[20px]"
+          className="relative w-[200px] h-[60px] font-saira  rounded-md text-black overflow-hidden font-bold text-[14px] md:text-[20px]"
           style={{
             backgroundImage: `url(${btn.src})`,
             backgroundSize: "contain",
