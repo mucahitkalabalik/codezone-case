@@ -7,7 +7,7 @@ function TrendCard({ item }) {
 
       <div className=" max-w-[450px] mr-5 flex">
         <div className="flex items-start mr-5  text-[50px] text-[#2A2A2A]">{`0${item.id}`}</div>
-        <div className="flex items-start flex-col  mb-5">
+        <div className="flex items-start flex-col  mb-5 text-white">
           <div className="flex items-center justify-start mb-5 mt-5">
             <img src={item.img} alt="" />
             <div className="ml-5">{item.name} </div>
