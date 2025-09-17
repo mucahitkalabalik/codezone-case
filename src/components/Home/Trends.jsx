@@ -50,7 +50,7 @@ function Trends() {
 
   return (
     <div className="w-full h-auto px-10 md:px-20 mb-[80px]">
-      <div className="trends-title text-[40px] md:text-[60px] flex items-center justify-start mt-20 mb-10 font-bold">
+      <div className="trends-title text-white text-[40px] md:text-[60px] flex items-center justify-start mt-20 mb-10 font-bold">
         TRENDLER
         <img src="/images/trends.png" alt="Trends" className="w-10 h-6 ml-5" />
       </div>
