@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="tr" className={saira.variable}>
       <body className="font-saira">
         <Header />
-        <main className="">{children}</main>
+        <main className="background-[#121212]">{children}</main>
       </body>
     </html>
   );
