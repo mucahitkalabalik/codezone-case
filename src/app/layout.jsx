@@ -9,7 +9,7 @@ const saira = Saira({
 });
 
 export const metadata = {
-  title: "Vaka Proje",
+  title: "Codezone Case",
   description: "Next.js 15 Case Study",
 };
 

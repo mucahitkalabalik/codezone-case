@@ -1,11 +1,12 @@
 import React from "react";
+import FavCarousel from "@/components/Home/Favorites/FavCarousel";
 import Favorite from "../../../public/images/favorite.png";
 function Favorites() {
   return (
-    <div className="flex gap-4 my-8 w-full    mb-[80px]">
+    <div className="flex flex-col md:flex-row gap-4 w-full mb-[80px]">
       <div>
         <div
-          className="pb-2 w-200"
+          className="pb-2 w-90 md:w-150"
           style={{
             backgroundImage: `url(${Favorite.src})`,
             backgroundSize: "contain",
@@ -17,7 +18,6 @@ function Favorites() {
             <img
               src="/images/youtube.png"
               alt=""
-              srcset=""
               className="mr-5 mt-5"
               height={10}
               width={150}
@@ -25,19 +25,24 @@ function Favorites() {
             <img
               src="/images/spotify.png"
               alt=""
-              srcset=""
               className="mt-5"
               height={10}
               width={150}
             />
           </div>
         </div>
-        <div>
-          <div className="text-3xl font-bold text-center mb-4">Ayın</div>
-          <div>Favorileri</div>
+        <div className="pl-20 pt-20">
+          <div className="text-5xl font-bold text-start mb-1 uppercase ">
+            Ayın
+          </div>
+          <div className="text-5xl font-bold text-start mb-4 uppercase">
+            Favorileri
+          </div>
         </div>
       </div>
-      <div>carousel</div>
+      <div>
+        <FavCarousel />
+      </div>
     </div>
   );
 }
