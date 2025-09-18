@@ -39,7 +39,7 @@ export default function FavCarousel() {
                 <img
                   src={`/images/favCarousel/fav${num}.png`}
                   alt={`Favorite ${num}`}
-                  className="rounded-xl h-[250px] w-[250px] object-contain mb-10 mt-10 -translate-x-15"
+                  className="rounded-xl h-[250px] w-[250px] object-contain mb-10 mt-10 -translate-x-12"
                 />
                 <div className="-translate-x-10 flex items-center justify-center flex-col -translate-y-5">
                   <h3 className="font-bold mt-2 bg-[#323232] p-2 rounded-lg mr-5 w-full mb-5">
