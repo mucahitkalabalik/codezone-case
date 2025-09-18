@@ -3,7 +3,7 @@ import FavCarousel from "@/components/Home/Favorites/FavCarousel";
 import Favorite from "../../../public/images/favorite.png";
 function Favorites() {
   return (
-    <div className="flex flex-col md:flex-row gap-4 w-full mb-[80px]">
+    <div className="flex flex-col md:flex-row gap-4 w-full mb-[80px] text-white">
       <div>
         <div
           className="pb-2 w-90 md:w-150"
@@ -32,10 +32,10 @@ function Favorites() {
           </div>
         </div>
         <div className="pl-20 pt-20">
-          <div className="text-5xl font-bold text-start mb-1 uppercase ">
+          <div className="text-5xl font-bold text-start mb-1 uppercase text-white ">
             Ayın
           </div>
-          <div className="text-5xl font-bold text-start mb-4 uppercase">
+          <div className="text-5xl font-bold text-start mb-4 uppercase text-white">
             Favorileri
           </div>
         </div>
