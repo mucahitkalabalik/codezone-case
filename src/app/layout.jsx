@@ -1,5 +1,5 @@
 import { Saira } from "next/font/google";
-import "./globals.css"; 
+import "./globals.css";
 import Header from "@/components/header";
 
 const saira = Saira({
@@ -11,6 +11,9 @@ const saira = Saira({
 export const metadata = {
   title: "Codezone Case",
   description: "Next.js 15 Case Study",
+  icons: {
+    icon: "/favicon2.png", // sekme simgesi
+  },
 };
 
 export default function RootLayout({ children }) {
