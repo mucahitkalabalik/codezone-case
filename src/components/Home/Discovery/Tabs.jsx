@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 function Tabs() {
-  const [activeTab, setActiveTab] = useState(4);
+  const [activeTab, setActiveTab] = useState(0);
   const tabs = [
     "Türk Rap",
     "Yabancı Rap",
