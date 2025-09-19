@@ -11,7 +11,7 @@ export default function FavCarousel() {
   return (
     <div className=" relative py-10 md:ml-10 flex items-end justify-end">
       {/* Scrollbar wrapper */}
-      <div className="swiper-scrollbar-container absolute left-4 right-4 bottom-0 h-2"></div>
+      <div className="swiper-scrollbar-container scale-75 absolute left-4 right-4 bottom-0 h-2"></div>
 
       <Swiper
         slidesPerView={1} 
