@@ -3,10 +3,10 @@ import FavCarousel from "@/components/Home/Favorites/FavCarousel";
 import Favorite from "../../../public/images/favorite.png";
 function Favorites() {
   return (
-    <div className="flex flex-col md:flex-row gap-4 w-full mb-[80px] text-white">
+    <div className="flex flex-col lg:flex-row gap-4 w-full mb-[120px] text-white">
       <div>
         <div
-          className="pb-2 w-90 md:w-150"
+          className="pb-2 w-90 lg:w-150"
           style={{
             backgroundImage: `url(${Favorite.src})`,
             backgroundSize: "contain",

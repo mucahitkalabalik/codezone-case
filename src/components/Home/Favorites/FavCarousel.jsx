@@ -14,10 +14,13 @@ export default function FavCarousel() {
       <div className="swiper-scrollbar-container absolute left-4 right-4 bottom-0 h-2"></div>
 
       <Swiper
-        slidesPerView="auto"
-        spaceBetween={40}
+        slidesPerView={1} // default mobilde 1 slide
+        breakpoints={{
+          640: { slidesPerView: 2, spaceBetween: 10 },
+          1024: { slidesPerView: 3, spaceBetween: 10 },
+          1280: { slidesPerView: 3, spaceBetween: 10 },
+        }}
         modules={[Scrollbar]}
-       
         scrollbar={{
           hide: false,
           el: ".swiper-scrollbar-container", // kendi container
@@ -26,8 +29,9 @@ export default function FavCarousel() {
         className="mySwiper"
       >
         {[1, 2, 3, 1, 2, 3, 1, 2, 3].map((num, idx) => (
-          <SwiperSlide key={idx} className="!w-[320px]">
+          <SwiperSlide key={idx} className="auto">
             <div
+              className="!w-[280px]"
               style={{
                 backgroundImage: `url(${FavBg.src})`,
                 backgroundSize: "cover",
@@ -39,7 +43,7 @@ export default function FavCarousel() {
                 <img
                   src={`/images/favCarousel/fav${num}.png`}
                   alt={`Favorite ${num}`}
-                  className="rounded-xl h-[250px] w-[250px] object-contain mb-10 mt-10 -translate-x-13"
+                  className="rounded-xl h-[250px] w-[250px] object-contain mb-10 mt-10 -translate-x-10"
                 />
                 <div className="-translate-x-10 flex items-center justify-center flex-col -translate-y-5">
                   <h3 className=" mt-2 bg-[#323232] p-2 rounded-lg mr-5 w-full mb-5 text-[13px]">

@@ -2,6 +2,7 @@ import HeroSection from "../components/Home/HeroSection";
 import LiveSection from "../components/Home/LiveSection";
 import Trends from "../components/Home/Trends";
 import Favorites from "../components/Home/Favorites";
+import DiscoverSection from "@/components/Home/DiscoverSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LiveSection />
       <Trends />
       <Favorites />
+      <DiscoverSection />
     </div>
   );
 }

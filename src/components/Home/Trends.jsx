@@ -1,60 +1,17 @@
 import React from "react";
 import TrendCard from "./Trends/TrendCard";
 import btn from "../../../public/images/all-btn.png";
+import { Data } from "@/Data/CardData";
 
 function Trends() {
-  let Data = [
-    {
-      id: 1,
-      name: "Jonathan Stewart",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.",
-      img: "/images/jonathon.png",
-    },
-    {
-      id: 2,
-      name: "Steve Rogerson",
-      description:
-        "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
-      img: "/images/steve.png",
-    },
-    {
-      id: 3,
-      name: "Ismail Kor",
-      description:
-        "ultricies dignissim nibh ut cursus. Nam et quam sit amet turpis finibus maximus ...",
-      img: "/images/ismail.png",
-    },
-    {
-      id: 4,
-      name: "Jonathan Stewart",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.",
-      img: "/images/jonathon.png",
-    },
-    {
-      id: 5,
-      name: "Steve Rogerson",
-      description:
-        "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
-      img: "/images/steve.png",
-    },
-    {
-      id: 6,
-      name: "Ismail Kor",
-      description:
-        "ultricies dignissim nibh ut cursus. Nam et quam sit amet turpis finibus maximus ...",
-      img: "/images/ismail.png",
-    },
-  ];
-
+ 
   return (
-    <div className="w-full h-auto px-10 md:px-20 mb-[80px]">
-      <div className="trends-title text-white text-[40px] md:text-[60px] flex items-center justify-start mt-20 mb-10 font-bold">
+    <div className="w-full max-w-full h-auto px-4 md:px-10 lg:px-20 mb-[80px] overflow-hidden">
+      <div className="trends-title text-white text-[32px] md:text-[40px] lg:text-[60px] flex items-center justify-start mt-20 mb-10 font-bold">
         TRENDLER
-        <img src="/images/trends.png" alt="Trends" className="w-10 h-6 ml-5" />
+        <img src="/images/trends.png" alt="Trends" className="w-8 h-5 md:w-10 md:h-6 ml-3 md:ml-5" />
       </div>
-      <div className="flex  flex-wrap">
+      <div className="flex flex-col md:grid md:grid-cols-12 md:gap-0">
         {Data.map((item) => (
           <TrendCard key={item.id} item={item} />
         ))}

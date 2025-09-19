@@ -40,31 +40,39 @@ function HeroSection() {
             <img
               src={image}
               alt={`Slide ${idx + 1}`}
-              className="w-full h-full object-cover"
+              className="absolute w-full h-full object-cover"
               style={{ objectFit: "cover" }}
             />
-            <div
-              className={`absolute inset-y-0 right-0 flex flex-col justify-start justify-md-center items-center md:items-start  text-md-left md:max-w-[660px] mx-10  mt-[200px] px-4 md:pr-[calc(100px+40px)] ${
-                idx === 0 ? "text-black" : "text-white"
-              }`}
-            >
-              <h1 className="text-xl md:text-6xl text-center md:text-start font-saira font-bold mb-4">
-                TÜRKÇE RAP VE DÜNYA MÜZİK HABERLERİNİ TAKİP ET
-              </h1>
-              <p className=" md:text-2xl  text-center md:text-start mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <button
-                className="relative w-[136px] py-3 font-saira font-medium rounded-md text-black overflow-hidden"
-                style={{
-                  backgroundImage: `url(${ButtonBg.src})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                Devamını Oku
-              </button>
+            <div className="grid grid-cols-12 h-full opacity-99">
+              <div className="hidden md:block md:col-span-6"></div>
+              <div className="col-span-12 md:col-span-5 flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 md:px-20 h-full md:mt-10">
+                <h1
+                  className={`text-3xl md:text-6xl  font-bold mb-4 ${
+                    idx === 0 ? "text-black" : "text-white"
+                  }`}
+                >
+                  TÜRKÇE RAP VE DÜNYA MÜZİK HABERLERİNİ TAKİP ET
+                </h1>
+                <p
+                  className={`md:text-2xl mb-6 ${
+                    idx === 0 ? "text-black" : "text-white"
+                  }`}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button
+                  className="relative w-[136px] py-3 font-medium rounded-md text-black overflow-hidden"
+                  style={{
+                    backgroundImage: `url(${ButtonBg.src})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  Devamını Oku
+                </button>
+              </div>
+              <div className="col-span-6 hidden md:block"></div>
             </div>
           </SwiperSlide>
         ))}

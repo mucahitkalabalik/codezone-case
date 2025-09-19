@@ -21,10 +21,10 @@ function LiveSection() {
           />
           <div className=" border-l border-[#3B3B3B] mr-10"></div>
           <div className="text-left">
-            <div className="live-title font-light text-[36px] md:text-[68px] leading-[1]">
+            <div className="live-title font-light text-[36px] md:text-[36px] lg:text-[50px]  leading-[1]">
               HER HAFTA
             </div>
-            <div className="live-yellow-title font-bold text-[36px] md:text-[68px] text-[#F0E74D] leading-[1]">
+            <div className="live-yellow-title font-bold text-[36px] md:text-[48px] lg:text-[68px] text-[#F0E74D] leading-[1]">
               CANLIDAYIZ
             </div>
             <div className="sub-title font-bold md:text-[16px] mt-1">
