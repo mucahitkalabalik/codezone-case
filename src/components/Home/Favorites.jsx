@@ -4,9 +4,9 @@ import Favorite from "../../../public/images/favorite.png";
 function Favorites() {
   return (
     <div className="grid grid-cols-12 mb-[120px] text-white">
-      <div className="col-span-12 lg:col-span-4 flex flex-col justify-center md:items-start">
+      <div className="col-span-12 lg:col-span-4 flex flex-col justify-center md:items-start pr-2 md:pr-0">
         <div
-          className="pb-2 w-90 lg:w-150"
+        className="md:pl-30 md:pr-30"
           style={{
             backgroundImage: `url(${Favorite.src})`,
             backgroundSize: "contain",
@@ -18,14 +18,14 @@ function Favorites() {
             <img
               src="/images/youtube.png"
               alt=""
-              className="mr-5 mt-5"
+              className="mr-5 mt-2"
               height={10}
               width={150}
             />
             <img
               src="/images/spotify.png"
               alt=""
-              className="mt-5"
+              className="mt-2"
               height={10}
               width={150}
             />
