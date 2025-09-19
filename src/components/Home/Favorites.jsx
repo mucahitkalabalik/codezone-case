@@ -3,8 +3,8 @@ import FavCarousel from "@/components/Home/Favorites/FavCarousel";
 import Favorite from "../../../public/images/favorite.png";
 function Favorites() {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 w-full mb-[120px] text-white">
-      <div>
+    <div className="grid grid-cols-12 mb-[120px] text-white">
+      <div className="col-span-12 lg:col-span-4 flex flex-col justify-center md:items-start">
         <div
           className="pb-2 w-90 lg:w-150"
           style={{
@@ -40,7 +40,7 @@ function Favorites() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="col-span-12 lg:col-span-8 overflow-hidden ">
         <FavCarousel />
       </div>
     </div>

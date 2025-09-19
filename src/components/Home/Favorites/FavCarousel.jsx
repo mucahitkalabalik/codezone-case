@@ -9,12 +9,12 @@ import "swiper/css/scrollbar";
 
 export default function FavCarousel() {
   return (
-    <div className="w-full max-w-5xl mx-auto relative py-10 md:ml-10">
+    <div className=" relative py-10 md:ml-10 flex items-end justify-end">
       {/* Scrollbar wrapper */}
       <div className="swiper-scrollbar-container absolute left-4 right-4 bottom-0 h-2"></div>
 
       <Swiper
-        slidesPerView={1} // default mobilde 1 slide
+        slidesPerView={1} 
         breakpoints={{
           640: { slidesPerView: 2, spaceBetween: 10 },
           1024: { slidesPerView: 3, spaceBetween: 10 },
