@@ -29,7 +29,7 @@ export default function FavCarousel() {
         className="mySwiper"
       >
         {[1, 2, 3, 1, 2, 3, 1, 2, 3].map((num, idx) => (
-          <SwiperSlide key={idx} className="auto">
+          <SwiperSlide key={idx} className="auto !flex !items-center !justify-center">
             <div
               className="!w-[280px]"
               style={{
