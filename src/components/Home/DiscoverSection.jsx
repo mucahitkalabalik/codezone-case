@@ -1,8 +1,10 @@
+'use client';
 import React from "react";
 import Tabs from "./Discovery/Tabs";
-import EmailSubscribe from "./Discovery/EmailSubscribe";
 import Cards from "./Discovery/Cards";
 import Subscribe from "./Discovery/Subscribe";
+
+
 function DiscoverSection() {
   const titles = [
     "HABERLER",

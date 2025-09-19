@@ -7,6 +7,7 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/jonathon.png",
     bg: "/images/d1.png",
+    slug: "lark2020den-yeni-parca-olmemi-istemezsin-yayinda",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/steve.png",
     bg: "/images/d2.png",
+    slug: "favordan-sert-bir-veda-ya-kal-ya-da-git-yayinda",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/ismail.png",
     bg: "/images/d3.png",
+    slug: "bcyden-yurek-yakan-parca-nerdeydin-yayinda",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/jonathon.png",
     bg: "/images/d4.png",
+    slug: "lark2020den-yeni-parca-olmemi-istemezsin-yayinda",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/steve.png",
     bg: "/images/d5.png",
+    slug: "ron-v-ve-akin-gezginci-ailem-icin-ile-pool-sessions-3te-gumbur-gumbur",
   },
   {
     id: 6,
@@ -52,5 +57,6 @@ export let Data = [
       "Praesent lorem orci, mattis non efficitur id Curabitur at risus sodales Aenean at.",
     img: "/images/ismail.png",
     bg: "/images/d1.png",
+    slug: "m-lisadan-yazin-hiti-salina-salina-yayinda",
   },
 ];

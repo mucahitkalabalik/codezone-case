@@ -1,5 +1,7 @@
 import React from "react";
 import { Data } from "@/Data/CardData";
+import Link from "next/link";
+
 function Cards() {
   return (
     <div className="mt-10">
@@ -20,7 +22,9 @@ function Cards() {
               {item.description}
             </div>
             <div className=" border-b border-[#3B3B3B] md:mt-10 mt-5"></div>
-            <div className="md:mt-15 mt-5 mb-5 md:mb-0">Daha Fazla Oku</div>
+            <div className="md:mt-15 mt-5 mb-5 md:mb-0">
+              <Link href={`/blog/${item.slug}`}>Daha Fazla Oku</Link>
+            </div>
           </div>
         </div>
       ))}

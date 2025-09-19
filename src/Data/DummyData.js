@@ -1,4 +1,4 @@
-[
+export let Data = [
   {
     _id: "68b14b479a63b6901bbed82e",
     user_id: "65a11bebe1495d4af5f535c4",
