@@ -13,7 +13,7 @@ function DiscoverSection() {
   return (
     <div className="md:px-20 grid grid-cols-12 text-white">
       <div className="col-span-12 md:col-span-7 grid grid-cols-12">
-        <div className="flex items-center col-span-10  ">
+        <div className="flex items-center col-span-10 pl-5 md:pl-0   ">
           <div className="md:text-[40px] text-3xl font-bold text-white mr-5">
             KEŞFET
           </div>
@@ -22,7 +22,7 @@ function DiscoverSection() {
             className="h-8 w-8 md:h-12 md:w-12"
           />
         </div>
-        <div className="col-span-2 flex items-center justify-end space-x-4">
+        <div className="col-span-2 flex items-center justify-end space-x-4 pr-5 md:pr-0 ">
           <img src="/images/search.png" />
           <img src="/images/dc1.png" />
           <img src="/images/dc2.png" />
