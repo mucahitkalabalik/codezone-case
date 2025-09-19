@@ -2,6 +2,7 @@ import React from "react";
 import Tabs from "./Discovery/Tabs";
 import EmailSubscribe from "./Discovery/EmailSubscribe";
 import Cards from "./Discovery/Cards";
+import Subscribe from "./Discovery/Subscribe";
 function DiscoverSection() {
   const titles = [
     "HABERLER",
@@ -46,26 +47,10 @@ function DiscoverSection() {
 
         <Tabs />
 
-        <div className="text-[40px] font-bold text-white mr-5 mb-10">
-          GELİŞMELERDEN İLK SEN HABERDAR OL!
-        </div>
-        <EmailSubscribe />
-        <div className="my-10">
-          <img src="/images/socials.png" className="h-10" />
-        </div>
-        <div className="flex space-x-4 flex-wrap">
-          {titles.map((title, index) => (
-            <div
-              key={index}
-              className="cursor-pointer hover:text-amber-300 transition"
-            >
-              {title}
-            </div>
-          ))}
-        </div>
-        <div className="mt-10 text-[#5C5C5C]">
-          © RAPKOLOGY All Rights Are Reserved 2022.
-        </div>
+        <Subscribe />
+      </div>
+      <div className="col-span-12 md:hidden  mt-10 mx-5 ">
+        <Subscribe />
       </div>
     </div>
   );
