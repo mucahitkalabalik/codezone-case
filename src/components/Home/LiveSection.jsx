@@ -7,7 +7,7 @@ function LiveSection() {
       className="w-full h-screen bg-cover bg-center relative flex flex-col  items-center justify-center md:justify-between md:px-20"
       style={{ backgroundImage: `url(${LiveSectionBg.src})` }}
     >
-        <img
+      <img
         src="/images/dark.png"
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
@@ -40,7 +40,7 @@ function LiveSection() {
               <span>Takip Et</span>
             </button>
             <button className="bg-[#222123] text-white px-6 py-3 rounded-xl flex items-center space-x-2">
-                <img src="/images/star.png" alt="Like" className="mr-2" />
+              <img src="/images/star.png" alt="Like" className="mr-2" />
               Abone Ol
             </button>
           </span>
@@ -50,16 +50,12 @@ function LiveSection() {
         <img
           src="/images/man.png"
           alt="Man"
-          width={150}
-          height={300}
-          className="object-contain md:w-[500px] md:h-auto"
+          className="object-contain w-[200px] md:w-[550px] md:h-auto"
         />
         <img
           src="/images/woman.png"
           alt="Woman"
-          width={150}
-          height={300}
-          className="object-contain md:w-[400px] md:h-auto"
+          className="object-contain w-[150px] md:w-[400px] md:h-auto"
         />
       </div>
     </div>
