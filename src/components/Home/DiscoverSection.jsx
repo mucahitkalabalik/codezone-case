@@ -27,16 +27,25 @@ function DiscoverSection() {
           <img src="/images/dc1.png" />
           <img src="/images/dc2.png" />
         </div>
+        <div className="col-span-12 md:hidden  mt-10 ml-5 ">
+          <div className="uppercase text-[24px] md:text-[40px] font-bold ">
+            ne görmek istersin?
+          </div>
+
+          <Tabs />
+        </div>
         <div className="col-span-12  mb-10">
           <Cards />
         </div>
       </div>
       <div className="md:col-span-1 md:block hidden"></div>
-      <div className="md:col-span-4 col-span-12 ">
-        <div className="uppercase text-[40px] font-bold">
+      <div className="md:col-span-4 col-span-12 hidden md:block ">
+        <div className="uppercase text-[40px] font-bold ">
           ne görmek istersin?
         </div>
+
         <Tabs />
+
         <div className="text-[40px] font-bold text-white mr-5 mb-10">
           GELİŞMELERDEN İLK SEN HABERDAR OL!
         </div>

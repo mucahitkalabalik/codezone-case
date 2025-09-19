@@ -31,7 +31,6 @@ export default function FavCarousel() {
         {[1, 2, 3, 1, 2, 3, 1, 2, 3].map((num, idx) => (
           <SwiperSlide key={idx} className="auto !flex !items-center !justify-center">
             <div
-              className="!w-[280px]"
               style={{
                 backgroundImage: `url(${FavBg.src})`,
                 backgroundSize: "cover",
@@ -39,16 +38,16 @@ export default function FavCarousel() {
                 backgroundRepeat: "no-repeat",
               }}
             >
-              <div className="flex items-center justify-center">
+              <div className="grid grid-cols-12">
                 <img
                   src={`/images/favCarousel/fav${num}.png`}
                   alt={`Favorite ${num}`}
-                  className="rounded-xl h-[250px] w-[250px] object-contain mb-10 mt-10 -translate-x-10"
+                  className="col-span-4 rounded-xl  object-contain mb-10 mt-10 "
                 />
-                <div className="-translate-x-10 flex items-center justify-center flex-col -translate-y-5">
-                  <h3 className=" mt-2 bg-[#323232] p-2 rounded-lg mr-5 w-full mb-5 text-[13px]">
+                <div className="col-span-8 flex items-center justify-center flex-col pr-5">
+                  <span className=" mt-2 bg-[#323232] p-2 rounded-2xl mr-5  mb-5 text-[16px]">
                     Top 10 <span className="font-bold">(2. Sıra)</span>
-                  </h3>
+                  </span>
                   <p className="text-[20px]">50 CENT</p>
                   <p className="font-bold text-[20px]">CURTIS</p>
                 </div>

@@ -14,8 +14,8 @@ function Tabs() {
   ];
 
   return (
-    <div className="mb-30">
-      <div className="flex space-x-4 flex-wrap overflow-x-auto py-4">
+    <div className=" mb-10 md:mb-30">
+      <div className="flex space-x-4 md:flex-wrap md:overflow-x-auto py-4 scrollbar-hide overflow-x-auto">
         {tabs.map((tab, index) => (
           <button
             key={index}

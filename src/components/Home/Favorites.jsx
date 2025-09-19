@@ -31,11 +31,11 @@ function Favorites() {
             />
           </div>
         </div>
-        <div className="pl-20 pt-20">
-          <div className="text-5xl font-bold text-start mb-1 uppercase text-white ">
+        <div className="md:pl-20 md:pt-20">
+          <div className="text-4xl md:text-5xl font-bold text-center md:text-start mb-1 uppercase text-white ">
             Ayın
           </div>
-          <div className="text-5xl font-bold text-start mb-4 uppercase text-white">
+          <div className="text-4xl md:text-5xl font-bold text-center md:text-start  uppercase text-white">
             Favorileri
           </div>
         </div>

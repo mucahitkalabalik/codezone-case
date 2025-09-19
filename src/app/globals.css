@@ -32,3 +32,11 @@ body {
   background-color: #F0E74D !important;
   border-radius: 4px;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE ve Edge */
+  scrollbar-width: none;     /* Firefox */
+}
