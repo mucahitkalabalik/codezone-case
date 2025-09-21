@@ -26,7 +26,7 @@ function Subscribe() {
         {titles.map((title, index) => (
           <div
             key={index}
-            className="cursor-pointer hover:text-amber-300 transition"
+            className="cursor-pointer hover:text-amber-300 transition mb-5"
           >
             {title}
           </div>

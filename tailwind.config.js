@@ -6,9 +6,9 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: true, 
+      center: true,
       padding: {
-        DEFAULT: "1rem", 
+        DEFAULT: "1rem",
         sm: "2rem",
         lg: "4rem",
         xl: "5rem",
@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       fontFamily: {
         saira: ["var(--font-saira)", "sans-serif"],
+        condensed: ["var(--font-saira-condensed)", "sans-serif"],
       },
     },
   },
