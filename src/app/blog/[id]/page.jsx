@@ -12,11 +12,11 @@ export default async function Blog({ params }) {
   console.log(blog, "blog");
 
   if (!blog) {
-    return <div className="max-w-2xl mx-auto py-10 mt-20">Blog not found</div>;
+    return <div className="max-w-2xl mx-auto py-10 mt-20 text-white">Blog not found</div>;
   }
 
   return (
-    <div className=" mt-20 grid grid-cols-12 md:px-20 px-5">
+    <div className=" mt-20 grid grid-cols-12 md:px-20 px-5 text-white">
       <div className="col-span-12 mt-20 mb-10  ">
         <Breadcrumb />
       </div>
