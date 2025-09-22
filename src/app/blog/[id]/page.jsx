@@ -29,10 +29,10 @@ export default async function Blog({ params }) {
           />
           12.094
         </div>
-        <div className="col-span-12 md:text-[60px] text-[30px] font-condensed font-bold uppercase text-white mb-5">
+        <div className="col-span-12 xl:text-[60px] md:text-[40px] text-[30px] font-condensed font-bold uppercase text-white mb-5">
           {blog.attributes.title}
         </div>
-        <div className="col-span-12 text-[16px] md:text-[25px] font-condensed font-bold uppercase text-white mb-5">
+        <div className="col-span-12 text-[16px] md:text-[22px] xl:text-[25px] font-condensed font-bold uppercase text-white mb-5">
           {blog.attributes.desc}
         </div>
         <div className="col-span-12 text-white mb-5 ">{blog.attributes.content}</div>

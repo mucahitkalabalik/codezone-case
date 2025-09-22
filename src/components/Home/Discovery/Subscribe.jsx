@@ -12,7 +12,7 @@ function Subscribe() {
 
   return (
     <div>
-      <div className="text-[22px] md:text-[40px] font-bold text-white mr-5 mb-10">
+      <div className="text-[22px] md:text-[30px] xl:text-[40px] font-bold text-white mr-5 mb-10">
         GELİŞMELERDEN İLK SEN HABERDAR OL!
       </div>
 

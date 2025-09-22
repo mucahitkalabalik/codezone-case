@@ -14,7 +14,7 @@ function TrendCard({ item }) {
             <img src={item.img} alt={item.name} />
             <div className="ml-5">{item.name}</div>
           </div>
-          <div className="mb-10 text-[16px] md:text-[22px] font-bold uppercase md:min-h-[150px]">
+          <div className="mb-10 text-[16px] md:text-[13px] xl:text-[22px] font-bold uppercase md:min-h-[150px]">
             {item.description}
           </div>
           <div className="border border-[#3B3B3B] w-full"></div>
