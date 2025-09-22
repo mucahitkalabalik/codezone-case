@@ -8,8 +8,8 @@ export default function Breadcrumb() {
   const segments = pathname.split("/").filter(Boolean);
 
   return (
-    <nav className="text-sm breadcrumbs text-[10px] md:text-[16px]">
-      <ol className="flex items-center space-x-2">
+    <nav className="text-sm breadcrumbs text-[10px] md:text-[16px] text-white">
+      <ol className="flex items-center space-x-2 text-white">
         <li className="uppercase">
           <Link href="/">Home</Link>
         </li>
