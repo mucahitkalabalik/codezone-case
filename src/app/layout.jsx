@@ -25,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={`${saira.variable} ${condensed.variable}`}>
-      <body className="font-saira">
+      <body className="font-saira bg-[#121212]">
         <Header />
         <main className="bg-[#121212]">{children}</main>
       </body>
