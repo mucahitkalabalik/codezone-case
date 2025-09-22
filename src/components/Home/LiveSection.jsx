@@ -4,7 +4,7 @@ import LiveSectionBg from "../../../public/images/live-section-bg.png";
 function LiveSection() {
   return (
     <div
-      className="w-full h-screen bg-cover bg-center relative flex flex-col  items-center justify-center md:justify-between "
+      className="w-full h-screen bg-cover bg-center relative flex flex-col  items-center justify-center md:justify-between overflow-hidden "
       style={{ backgroundImage: `url(${LiveSectionBg.src})` }}
     >
       <img
@@ -12,7 +12,7 @@ function LiveSection() {
         alt="Carousel Detail"
         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-auto h-45 md:h-80 z-20"
       />
-      <div className="flex flex-col text-center text-white mb-8 md:mb-0 md:absolute md:top-1/12   lg:left-4/14   rotate-[-3deg]">
+      <div className="flex flex-col text-center text-white mb-8 md:mb-0 md:absolute md:top-1/12 lg:top-0   lg:left-3/14 xl:left-4/14   rotate-[-3deg]">
         <div className="flex mb-10 md:mt-6">
           <img
             src="images/twitch.png"
@@ -21,7 +21,7 @@ function LiveSection() {
           />
           <div className=" border-l border-[#3B3B3B] mr-10"></div>
           <div className="text-left">
-            <div className="live-title font-light text-[36px] md:text-[36px] lg:text-[50px]  leading-[1]">
+            <div className="live-title font-light text-[36px] md:text-[36px] lg:text-[68px]  leading-[1]">
               HER HAFTA
             </div>
             <div className="live-yellow-title font-bold text-[36px] md:text-[48px] lg:text-[68px] text-[#F0E74D] leading-[1]">
@@ -46,16 +46,16 @@ function LiveSection() {
           </span>
         </div>
       </div>
-      <div className="w-full flex justify-between items-center md:pt-50">
+      <div className="w-full flex justify-between items-center md:pt-30">
         <img
           src="/images/man.png"
           alt="Man"
-          className="object-contain w-[200px] md:w-[550px] md:h-auto md:mr-10"
+          className="object-contain w-[200px] md:w-[650px] md:h-auto md:mr-10"
         />
         <img
           src="/images/woman.png"
           alt="Woman"
-          className="object-contain w-[150px] md:w-[400px] md:h-auto"
+          className="object-contain w-[150px] md:w-[450px] md:h-auto"
         />
       </div>
     </div>
