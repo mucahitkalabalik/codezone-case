@@ -16,7 +16,7 @@ export default async function Blog({ params }) {
   }
 
   return (
-    <div className=" mt-20 grid grid-cols-12 md:px-20 px-5 text-white">
+    <div className=" mt-20 grid grid-cols-12 md:px-20 px-5 text-white bg-[#121212]">
       <div className="col-span-12 mt-20 mb-10  ">
         <Breadcrumb />
       </div>
