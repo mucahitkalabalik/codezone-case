@@ -20,8 +20,8 @@ export default async function Blog({ params }) {
       <div className="col-span-12 mt-20 mb-10  ">
         <Breadcrumb />
       </div>
-      <div className="md:col-span-8 col-span-12 grid gap-5 text-white">
-        <div className="cols-span-12 flex items-center text-white">
+      <div className="md:col-span-8 col-span-12 grid  gap-5 text-white">
+        <div className="col-span-12 flex items-center text-white">
           <img
             src="/images/watch.png"
             alt=""
@@ -65,11 +65,7 @@ export default async function Blog({ params }) {
         </div>
       </div>
       <div className="col-span-1 hidden md:block"></div>
-      <div className="col-span-3 hidden md:block">
-        <Subscribe />
-      </div>
-
-      <div className="col-span-12 block md:hidden">
+      <div className="col-span-12 md:col-span-3  md:block">
         <Subscribe />
       </div>
     </div>
