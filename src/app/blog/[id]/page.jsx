@@ -20,8 +20,8 @@ export default async function Blog({ params }) {
       <div className="col-span-12 mt-20 mb-10  ">
         <Breadcrumb />
       </div>
-      <div className="md:col-span-8 col-span-12 grid  gap-5 text-white">
-        <div className="col-span-12 flex items-center text-white">
+      <div className="md:col-span-8 col-span-12  gap-5 text-white">
+        <div className="col-span-12 flex items-center text-white mb-5">
           <img
             src="/images/watch.png"
             alt=""
@@ -29,23 +29,23 @@ export default async function Blog({ params }) {
           />
           12.094
         </div>
-        <div className="col-span-12 md:text-[60px] text-[30px] font-condensed font-bold uppercase text-white">
+        <div className="col-span-12 md:text-[60px] text-[30px] font-condensed font-bold uppercase text-white mb-5">
           {blog.attributes.title}
         </div>
-        <div className="col-span-12 text-[16px] md:text-[25px] font-condensed font-bold uppercase text-white">
+        <div className="col-span-12 text-[16px] md:text-[25px] font-condensed font-bold uppercase text-white mb-5">
           {blog.attributes.desc}
         </div>
-        <div className="col-span-12 text-white ">{blog.attributes.content}</div>
+        <div className="col-span-12 text-white mb-5 ">{blog.attributes.content}</div>
 
-        <div className="col-span-12 ">
+        <div className="col-span-12 mb-5 ">
           <img src={blog.attributes.img} alt="" className="max-w-[350px] md:max-w-[100%]" />
         </div>
         {Array.from({ length: 2 }).map((_, i) => (
-          <div key={i} className="col-span-12 text-white">
+          <div key={i} className="col-span-12 text-white mb-5">
             {blog.attributes.content}
           </div>
         ))}
-        <div className="col-span-1">
+        <div className="col-span-1 mb-5">
           <Tags tags={blog.attributes.tags} />
         </div>
         <div className="col-span-12 flex gap-5 mb-10 text-white">
