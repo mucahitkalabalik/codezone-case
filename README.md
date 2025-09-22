@@ -20,7 +20,7 @@ Proje, Figma tasarımına olabildiğince uygun olacak şekilde **responsive** ol
 
 ### Öne çıkan noktalar:
 
-- Blog listesi ve detay sayfaları
+- Anasayfa ve detay sayfaları
 - Ana sayfadaki **“Daha Fazla Oku”** butonları ile blog detay sayfalarına yönlendirme
 - Carousel / slider alanları Swiper.js ile oluşturuldu
 - Mock data doğrudan import edilerek render edildi
