@@ -6,7 +6,7 @@
 
 ## 📌 Teknolojiler
 
-- **Next.js 15** – Modern React framework  
+- **Next.js 15** 
 - **React 18**  
 - **TailwindCSS** – Hızlı ve responsive CSS  
 - **Swiper.js** – Carousel / slider implementasyonu  
