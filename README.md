@@ -22,3 +22,5 @@ Proje, Figma tasarımına olabildiğince uygun olacak şekilde **responsive** ol
 - Carousel / slider alanları Swiper.js ile oluşturuldu
 - Mock data doğrudan import edilerek render edildi
 - Masaüstü ve mobil tasarım uyumu sağlandı  
+<img width="1896" height="906" alt="Ekran görüntüsü 2025-09-22 120804" src="https://github.com/user-attachments/assets/5c788fe5-a183-45b4-b657-1760068477d9" />
+<img width="1900" height="909" alt="Ekran görüntüsü 2025-09-22 120825" src="https://github.com/user-attachments/assets/a1faa960-559e-432a-a7c4-c198efd5a675" />
