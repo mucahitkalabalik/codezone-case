@@ -9,7 +9,7 @@
 - **Next.js 15**  
 - **TailwindCSS** – Hızlı ve responsive CSS  
 - **Swiper.js** – Carousel / slider implementasyonu  
-- **Mock Data JSON** – Doğrudan import edilerek kullanıldı  
+- **Mock Data JSON** – Doğrudan import edilerek kullanıldı. Bazı alanlar ihtiyaç dahilinde değiştirildi.
 
 ---
 
