@@ -16,7 +16,6 @@ function LiveSection() {
         <div className="flex mb-10 md:mt-6">
           <img
             src="images/twitch.png"
-            alt="Twitch"
             className="w-32 md:w-40 lg:w-60"
           />
           <div className=" border-l border-[#3B3B3B] mr-10"></div>
