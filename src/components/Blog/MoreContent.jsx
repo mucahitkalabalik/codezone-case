@@ -4,7 +4,7 @@ import { Data } from "@/Data/DummyData";
 
 function MoreContent() {
   return (
-    <div className="w-full">
+    <div>
       {Data.slice(0, 3).map((item) => (
         <Link
           key={item._id}
