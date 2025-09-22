@@ -1,10 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function Header() {
+  const pathname = usePathname();
+
+  const isBlogPage = pathname.startsWith("/blog");
+
   return (
-    <header className="absolute top-0 left-0 w-full h-20 bg-[#1212120c] z-50 backdrop-blur border-b border-[#2A2A2A]">
-      <div className="container mx-auto flex items-center justify-between h-full px-6 bg-[#121212] md:bg-[#1212120c]">
+    <header
+      className={`absolute top-0 left-0 w-full h-20 z-50 backdrop-blur border-b border-[#2A2A2A] ${
+        isBlogPage ? "bg-[#121212]" : "bg-[#1212120c]"
+      }`}
+    >
+      <div
+        className={`container mx-auto flex items-center justify-between h-full px-6 ${
+          isBlogPage ? "bg-[#121212]" : "bg-[#1212120c] md:bg-[#1212120c]"
+        }`}
+      >
         <Link href="/" className="flex items-center">
           <img src="/images/logo.png" alt="Logo" width={240} height={60} />
         </Link>
