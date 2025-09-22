@@ -17,8 +17,6 @@
 
 Proje, Figma tasarımına olabildiğince uygun olacak şekilde **responsive** olarak geliştirilmiştir.  
 
-### Öne çıkan noktalar:
-
 - Anasayfa ve detay sayfaları
 - Ana sayfadaki **“Daha Fazla Oku”** butonları ile blog detay sayfalarına yönlendirme
 - Carousel / slider alanları Swiper.js ile oluşturuldu
