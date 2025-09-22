@@ -47,14 +47,14 @@ function HeroSection() {
               <div className="hidden md:block md:col-span-6"></div>
               <div className="col-span-12 md:col-span-5 flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 md:px-20 h-full md:mt-10">
                 <h1
-                  className={`text-3xl md:text-6xl  font-bold mb-4 ${
+                  className={`text-3xl xl:text-6xl  font-bold mb-4 ${
                     idx === 0 ? "text-black" : "text-white"
                   }`}
                 >
                   TÜRKÇE RAP VE DÜNYA MÜZİK HABERLERİNİ TAKİP ET
                 </h1>
                 <p
-                  className={`md:text-2xl mb-6 ${
+                  className={`xl:text-2xl mb-6 ${
                     idx === 0 ? "text-black" : "text-white"
                   }`}
                 >
