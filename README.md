@@ -6,8 +6,7 @@
 
 ## 📌 Teknolojiler
 
-- **Next.js 15** 
-- **React 18**  
+- **Next.js 15**  
 - **TailwindCSS** – Hızlı ve responsive CSS  
 - **Swiper.js** – Carousel / slider implementasyonu  
 - **Mock Data JSON** – Doğrudan import edilerek kullanıldı  
