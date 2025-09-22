@@ -1,8 +1,6 @@
 # Codezone Case Study
 
-Bu proje, **Codezone** tarafından verilen vaka çalışması kapsamında **Next.js 15** ve **TailwindCSS** kullanılarak geliştirilmiştir.
-
-[🌐 Canlı Demo](https://casecodazone.netlify.app/)
+[🌐 Canlı Demo](https://casecodezone.netlify.app/)
 
 ---
 
