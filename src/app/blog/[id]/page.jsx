@@ -38,7 +38,7 @@ export default async function Blog({ params }) {
         <div className="col-span-12 text-white ">{blog.attributes.content}</div>
 
         <div className="col-span-12 ">
-          <img src={blog.attributes.img} alt="" />
+          <img src={blog.attributes.img} alt="" className="max-w-[350px] md:max-w-[100%]" />
         </div>
         {Array.from({ length: 2 }).map((_, i) => (
           <div key={i} className="col-span-12 text-white">
